@@ -1,0 +1,8 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Administration{% endblock %}
+
+{% block body %}
+    Connecté
+    <a href="{{ path('app_front_security_logout') }}"><button>Déconnecter</button></a>
+{% endblock %}
